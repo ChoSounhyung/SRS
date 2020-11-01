@@ -25,6 +25,10 @@
     color: black;
 }
 
+.inner_text {
+    font-size: 1.2rem;
+}
+
 #s_list {
     margin: 600px 100px 0 500px;
 }
