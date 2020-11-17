@@ -4,14 +4,16 @@ import List from "./routes/Smti";
 import Smti from "./routes/List";
 import Navigation from "./components/Navigation";
 
-function App() {
-  return  (
-    <HashRouter>
-      <Navigation />
-      <Route path="/list" exact={true} component={List} />
-      <Route path="/smti" exact={true} component={Smti} />
-    </HashRouter>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <HashRouter>
+        <Navigation />
+        <Route path="/list" exact={true} component={List} />
+        <Route path="/smti" exact={true} component={Smti} />
+      </HashRouter>
+    );
+  }
 }
 
 export default App;
