@@ -1,7 +1,7 @@
 import React from 'react'
 import { HashRouter, Route} from "react-router-dom";
-import List from "./routes/Smti";
-import Smti from "./routes/List";
+import Smti from "./routes/Smti";
+import List from "./routes/List";
 import Navigation from "./components/Navigation";
 
 class App extends React.Component {
