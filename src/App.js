@@ -1,23 +1,16 @@
 import React from 'react'
 import { HashRouter, Route} from "react-router-dom";
-import Sangjum_List from "./routes/Sangjum_List";
-import Card_Game from "./routes/Card_Game";
+import List from "./routes/Smti";
+import Smti from "./routes/List";
 import Navigation from "./components/Navigation";
-import cir from './image/142.png';
-import arrow from './image/arrow.png';
-import "./App.css";
 
 function App() {
   return  (
-    <div>
-      <img className="cir" src={cir} />
-      <img className="arrow" src={arrow} />
-      <HashRouter>
-        <Navigation />
-        <Route path="/sangjum_list" exact={true} component={Sangjum_List} />
-        <Route path="/card_game" exact={true} component={Card_Game} />
-      </HashRouter>
-    </div>
+    <HashRouter>
+      <Navigation />
+      <Route path="/list" exact={true} component={List} />
+      <Route path="/smti" exact={true} component={Smti} />
+    </HashRouter>
   );
 }
 
