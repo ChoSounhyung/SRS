@@ -1,17 +1,55 @@
+.nav_text {
+    color: #3CB432;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
 
+.nav {
+    text-align: right;
+    padding: 40px;
+}
+
+#list {
+    padding: 120px;
+}
+
+#smti {
+    padding: 120px;
+}
 
 @media screen and (min-width: 1640px) {
-    
+    #list {
+        padding: 100px;
+    }
+    #smti {
+        padding: 100px;
+    }
 }
 
 @media screen and (min-width: 1110px) and (max-width: 1640px) {
-    
+    #list {
+        padding: 70px;
+    }
+    #smti {
+        padding: 70px;
+    }
 }
 
 @media screen and (min-width: 730px) and (max-width: 1110px) {
-
+    #list {
+        padding: 50px;
+    }
+    #smti {
+        padding: 50px;
+    }
 }
 
 @media screen and (max-width: 730px) {
-
+    #list {
+        padding: 20px;
+    }
+    #smti {
+        padding: 20px;
+    }
 }

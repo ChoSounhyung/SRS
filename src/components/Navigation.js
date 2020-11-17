@@ -5,9 +5,9 @@ import "./Navigation.css"
 
 function Navigation() {
     return (
-        <div>
-            <Link to="/list">LIST</Link>
-            <Link to="/smti">SMTI</Link>
+        <div className="nav">
+            <Link to="/list" className="nav_text" id="lsit">LIST</Link>
+            <Link to="/smti" className="nav_text" id="smti">SMTI</Link>
         </div>
     );
 }
