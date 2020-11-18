@@ -5,10 +5,12 @@ import storeData from "../StoreData.json"
 
 function Store({ name, address, image }) {
     return (
-        <div>
+        <div className="green_box">
             <img className="crop" src={image} alt={name} />
-            <h3>{name}</h3>
-            <h3>{address}</h3>
+            <div className="content">
+                <h3 id="name">{name}</h3>
+                <h3 id="address">{address}</h3>
+            </div>
         </div>
     );
 }

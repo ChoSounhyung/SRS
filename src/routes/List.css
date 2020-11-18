@@ -1,5 +1,31 @@
 .crop {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
+}
+
+.green_box {
+    border-radius: 30px;
+    border: 5px solid #3DB432;
+    background: #E5F7E3;
+    padding: 30px;
+    margin: 100px;
+    width: 500px;
+    height: 250px;
+}
+
+.content {
+    float: right;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+
+#name {
+    font-size: 1.5rem;
+}
+
+#address {
+    font-size: 1.4rem;
+    color: #009946;
 }
