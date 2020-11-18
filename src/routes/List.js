@@ -1,9 +1,11 @@
 import React from "react";
 import storeData from "../StoreData.json"
 
-function Store({ name, address }) {
+
+function Store({ name, address, image }) {
     return (
         <div>
+            <img src={image} alt={name} />
             <h3>{name}</h3>
             <h3>{address}</h3>
         </div>
@@ -15,7 +17,7 @@ class List extends React.Component {
         return (
             <div>
                 {storeData.map(store => (
-                    <Store key={store.id} name={store.name} address={store.address} />
+                    <Store key={store.id} name={store.name} address={store.address} image={store.image} />
                 ))}
             </div>
         );
