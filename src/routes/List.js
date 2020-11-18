@@ -1,11 +1,12 @@
 import React from "react";
+import "./List.css"
 import storeData from "../StoreData.json"
 
 
 function Store({ name, address, image }) {
     return (
         <div>
-            <img src={image} alt={name} />
+            <img className="crop" src={image} alt={name} />
             <h3>{name}</h3>
             <h3>{address}</h3>
         </div>
