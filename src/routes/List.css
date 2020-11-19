@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'BMEULJIRO';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BMEULJIRO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.list_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.crop {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.green_box {
+    border-radius: 30px;
+    border: 8px solid #3DB432;
+    background: #E5F7E3;
+    width: 550px;
+    height: 250px;
+    padding: 30px;
+    margin: 80px;
+    font-family: 'BMEULJIRO';
+}
+
+.content {
+    float: right;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 35px;
+}
+
+#name {
+    font-size: 2.2rem;
+    font-weight: 3;
+}
+
+#address {
+    font-size: 2rem;
+    color: #009946;
+    font-weight: 3;
+}
+
+.title {
+    font-family: 'BMEULJIRO';
+    font-weight: 3;
+    font-size: 3rem;
+    margin-left: 300px;
+}
+
+@media screen and (min-width: 1800px) {
+    #container_margin {
+        margin-left: 210px;
+    }
+    #green_box_container {
+        margin: 80px;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1800px) {
+    #container_margin {
+        margin-left: 80px;
+    }
+    #green_box_container {
+        margin: 40px;
+    }
+    #name {
+        font-size: 2.0rem;
+        font-weight: 3;
+    }
+    #address {
+        font-size: 1.8rem;
+        color: #009946;
+        font-weight: 3;
+    }
+}
+
+@media screen and (min-width: 1350px) and (max-width: 1500px) {
+    #container_margin {
+        margin-left: 30px;
+    }
+    #green_box_container {
+        width: 500px;
+        height: 250px;
+        margin: 30px;
+    }
+    #name {
+        font-size: 1.8rem;
+        font-weight: 3;
+    }
+    #address {
+        font-size: 1.6rem;
+        color: #009946;
+        font-weight: 3;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1350px) {
+    #container_margin {
+        margin-left: 50px;
+    }
+    #green_box_container {
+        margin: 40px;
+    }
+    #green_box_container {
+        margin: 30px;
+        width: 430px;
+        height: 200px;
+    }
+    .crop {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .content {
+        float: right;
+        text-align: center;
+        margin-right: 3px;
+        margin-top: 20px;
+    }
+    #name {
+        font-size: 1.6rem;
+        font-weight: 3;
+    }
+    #address {
+        font-size: 1.4rem;
+        color: #009946;
+        font-weight: 3;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    #container_margin {
+        margin-left: 200px;
+    }
+    #green_box_container {
+        margin: 40px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+    #container_margin {
+        margin-left: 130px;
+    }
+    #green_box_container {
+        margin: 30px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    #container_margin {
+        margin-left: 90px;
+    }
+    #green_box_container {
+        margin: 30px;
+        width: 450px;
+        height: 190px;
+    }
+    .crop {
+        width: 190px;
+        height: 190px;
+        object-fit: cover;
+    }
+    #name {
+        font-size: 1.7rem;
+        font-weight: 3;
+    }
+    #address {
+        font-size: 1.5rem;
+        color: #009946;
+        font-weight: 3;
+    }
+    .content {
+        float: right;
+        text-align: center;
+        margin-right: 15px;
+        margin-top: 25px;
+    }
+    .title {
+        margin-left: 100px;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 700px) {
+    #container_margin {
+        margin-left: 50px;
+    }
+    #green_box_container {
+        margin: 30px;
+        width: 350px;
+        height: 150px;
+    }
+    .crop {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+    #name {
+        font-size: 1.5rem;
+        font-weight: 3;
+    }
+    #address {
+        font-size: 1.3rem;
+        color: #009946;
+        font-weight: 3;
+    }
+    .content {
+        float: right;
+        text-align: center;
+        margin-right: 3px;
+        margin-top: 10px;
+    }
+    .title {
+        margin-left: 100px;
+        font-size: 2.5rem;
+    }
+}
