@@ -20,7 +20,7 @@
     border-radius: 30px;
     border: 8px solid #3DB432;
     background: #E5F7E3;
-    width: 500px;
+    width: 550px;
     height: 250px;
     padding: 30px;
     margin: 80px;
@@ -31,20 +31,26 @@
     float: right;
     text-align: center;
     margin-right: 15px;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 #name {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     font-weight: 3;
 }
 
 #address {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #009946;
     font-weight: 3;
 }
 
+.title {
+    font-family: 'BMEULJIRO';
+    font-weight: 3;
+    font-size: 3rem;
+    margin-left: 300px;
+}
 
 @media screen and (min-width: 1800px) {
     #container_margin {
@@ -57,10 +63,19 @@
 
 @media screen and (min-width: 1500px) and (max-width: 1800px) {
     #container_margin {
-        margin-left: 110px;
+        margin-left: 80px;
     }
     #green_box_container {
-        margin: 60px;
+        margin: 40px;
+    }
+    #name {
+        font-size: 2.0rem;
+        font-weight: 3;
+    }
+    #address {
+        font-size: 1.8rem;
+        color: #009946;
+        font-weight: 3;
     }
 }
 
@@ -69,7 +84,18 @@
         margin-left: 30px;
     }
     #green_box_container {
+        width: 500px;
+        height: 250px;
         margin: 30px;
+    }
+    #name {
+        font-size: 1.8rem;
+        font-weight: 3;
+    }
+    #address {
+        font-size: 1.6rem;
+        color: #009946;
+        font-weight: 3;
     }
 }
 
@@ -80,7 +106,6 @@
     #green_box_container {
         margin: 40px;
     }
-
     #green_box_container {
         margin: 30px;
         width: 430px;
@@ -91,12 +116,20 @@
         height: 200px;
         object-fit: cover;
     }
-
     .content {
         float: right;
         text-align: center;
         margin-right: 3px;
         margin-top: 20px;
+    }
+    #name {
+        font-size: 1.6rem;
+        font-weight: 3;
+    }
+    #address {
+        font-size: 1.4rem;
+        color: #009946;
+        font-weight: 3;
     }
 }
 
@@ -132,23 +165,24 @@
         height: 190px;
         object-fit: cover;
     }
-
     #name {
         font-size: 1.7rem;
         font-weight: 3;
     }
-    
     #address {
         font-size: 1.5rem;
         color: #009946;
         font-weight: 3;
     }
-
     .content {
         float: right;
         text-align: center;
         margin-right: 15px;
         margin-top: 25px;
+    }
+    .title {
+        margin-left: 100px;
+        font-size: 2.5rem;
     }
 }
 
@@ -156,7 +190,6 @@
     #container_margin {
         margin-left: 50px;
     }
-
     #green_box_container {
         margin: 30px;
         width: 350px;
@@ -167,23 +200,23 @@
         height: 150px;
         object-fit: cover;
     }
-
     #name {
         font-size: 1.5rem;
         font-weight: 3;
     }
-    
     #address {
         font-size: 1.3rem;
         color: #009946;
         font-weight: 3;
     }
-
-    
     .content {
         float: right;
         text-align: center;
         margin-right: 3px;
         margin-top: 10px;
+    }
+    .title {
+        margin-left: 100px;
+        font-size: 2.5rem;
     }
 }

@@ -17,11 +17,15 @@ function Store({ name, address, image }) {
 class List extends React.Component {
     render() {
         return (
-            <div className={"list_container"} id="container_margin">
-                {storeData.map(store => (
-                    <Store key={store.id} name={store.name} address={store.address} image={store.image} />
-                ))}
+            <div>
+                <h1 className="title">신사리 상점 리스트</h1>
+                <div className={"list_container"} id="container_margin">
+                    {storeData.map(store => (
+                        <Store key={store.id} name={store.name} address={store.address} image={store.image} />
+                    ))}
+                </div>
             </div>
+            
         );
     }
 }
