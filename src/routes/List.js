@@ -2,7 +2,6 @@ import React from "react";
 import "./List.css"
 import storeData from "../StoreData.json"
 
-
 function Store({ name, address, image }) {
     return (
         <div className="green_box">
