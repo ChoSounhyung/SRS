@@ -1,0 +1,85 @@
+[
+    {
+        "id" : 1,
+        "name": "카페베네",
+        "address" : "남부 순환로 1600-1",
+        "image" : "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTAzMDVfMjA1%2FMDAxNTUxNzcwMzkwNzIx.Qp3C4a_oepHSRcDw0PbQ73fTdkA__Ga3IXBwaCxr-1wg.LeAy6QBafyFDDL22JntW8ip9mxK9woKL9EyC3uNzkLUg.JPEG.dltpfud00%2Foutput_750643676.jpg"
+    },
+    {   "id" : 2,
+        "name": "행복한 맛김",
+        "address" : "관천로 41 (A-20)",
+        "image" : "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190529_288%2F1559129893760WUH5g_JPEG%2FQyAxhy4L0dYDg7dQgTx2FBFL.JPG.jpg"
+    },
+    {
+        "id" : 3,
+        "name": "잉꼬떡방아",
+        "address" : "신원로 23 (B-28)",
+        "image" : "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190613_122%2F15604173773722z2Og_JPEG%2FQ2ZJy2OmN9sf-bc6c4jBxZcN.jpg"
+    },
+    {
+        "id" : 4,
+        "name": "틈새라면",
+        "address" : "신림로 59길 (15-13)",
+        "image" : "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA2MTVfMjg3%2FMDAxNTkyMTk1NDc5OTI0.DOS42OTT8u4x7TZKuPLDCVaJ3yjFR71pdEzdUZRwG8og.gS41BlJZqOTGv3UpdlSwsV7P69F3yywqc_kdBu7YE5Yg.JPEG.holiz1%2FKakaoTalk_20200615_003550532.jpg"
+    },
+    {
+        "id" : 5,
+        "name": "뜨레봉 강정 치킨",
+        "address" : "신원로 23 (B-55)",
+        "image" : "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190826_237%2F1566780820177fAukY_JPEG%2F4AKDysKiFod3M4Jc2FDEafYI.jpg"
+    },
+    {
+        "id" : 6,
+        "name": "맵당",
+        "address" : "신원로 40-11 2층",
+        "image" : "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAyMTJfMTE0%2FMDAxNTgxNTEwNTAyMTAw.NDx6p7FH4ZXTXg9HHnhaN-xask6O4UhDiwQXhajiNnMg.6lU-NcM4KfrT2UwxNuZJc1uKiWB3-uQJJI4BTHMnrKAg.JPEG.dud8791%2FIMG_0652.jpg"
+    },
+    {
+        "id" : 7,
+        "name": "신사리즉석떡볶이",
+        "address" : "남부 순환로 176길",
+        "image" : "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEwMjJfNzIg%2FMDAxNjAzMzQ3NTgyNjc5.VLphM4D_o4LTQXi-1w84LdxaWvyry-wx-6sr5NwnW2og.DpbtyqoF-Y7XYB_p_WsOkFcW-egsk6529cVUlv6aHH0g.JPEG.parksujin7233%2F1603347581428.jpg"
+    },
+    {
+        "id" : 8,
+        "name": "아저씨강정",
+        "address" : "관천로 45-1( A-10)",
+        "image" : "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA3MTFfMzAg%2FMDAxNTk0NDY5OTY1MTY4.6mD1Bw4sfGS9zRV-KZ7QHSZh95lpPUxhD3FVupaY1eIg.RILYWK3aTvCaq4g4TaCS-R6dYyDgVODxfXSXgSMHln4g.JPEG.daisynaya%2F1594469964511.jpg"
+    },
+    {
+        "id" : 9,
+        "name": "59떡갈비",
+        "address" : "신원로 23 (B-56)",
+        "image" : "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170804_167%2F1501825742058XiyDU_JPEG%2F13.jpg"
+    },
+    {
+        "id" : 10,
+        "name": "고모네식당",
+        "address" : "신원로 23 (B-47)",
+        "image" : "https://postfiles.pstatic.net/MjAyMDA3MjlfNTUg/MDAxNTk2MDIzOTI3MTQz.8t8iv36SE9Uku6SlTcN6h7aiCpebtPZbljVc8kB6I9kg.oXOdPRxr7mGjN8fOJ1n6qDOwqMfRJKA--ZvkTqtheIsg.JPEG.jaeundream/P20200629_144519965_93387028-1FFF-4249-8A9E-FB32E8F55E96.JPG?type=w580"
+    },
+    {
+        "id" : 11,
+        "name": "시장탕수육",
+        "address" : "관천로 19 (A-68)",
+        "image" : "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200821_249%2F1597991529773h3qAC_JPEG%2FSXxhX2ESfxFWz-RAeDxcHFWW.jpg"
+    },
+    {
+        "id" : 12,
+        "name": "킹콩부대찌개",
+        "address" : "신림로 59길 1(5-12)",
+        "image" : "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA3MDlfMjU3%2FMDAxNTk0MjIwNDk5MzA4.8voVBvf1GWc7aBXlPJIWVbbCBOg1QEj0Qf7krJIs9u0g.BY7O-cH_lfbk63Xl4hcu_9ufd1xo6tMF3WE-mojUDDMg.JPEG.fullmoono%2FIMG_3902.JPG"
+    },
+    {
+        "id" : 13,
+        "name": "원조홍어",
+        "address" : "신원로 5길 13 (B-41)",
+        "image" : "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTAxMDJfNjUg%2FMDAxNTQ2NDIxODQ2NzUy.GnrMx3c78oZkv7eW8hv9jBTxbewzfUjWZGbxZFXcAJMg.gaLP0IYhPZ7o3P8KuLw0C_DvWHT2UtghV39SdDLy7j8g.JPEG.morrisan%2F20181201_194925.jpg"
+    },
+    {
+        "id" : 14,
+        "name": "백암왕순대&왕냉면",
+        "address" : "신원로 39",
+        "image" : "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAzMjNfODEg%2FMDAxNTg0OTU5ODYzOTE5.WMgl6lyghzOHeZSmWCpupijlO4ujKn5MdWisiy1et9cg.Dbd3sILvR5wm0q5Y8MLSoQjBCnkC9V1VBm_FPygV73sg.JPEG.jjaysblog%2F1584959864211.jpg"
+    }
+]
