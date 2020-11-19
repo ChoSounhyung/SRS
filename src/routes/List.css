@@ -5,6 +5,11 @@
     font-style: normal;
 }
 
+.list_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .crop {
     width: 250px;
     height: 250px;
@@ -13,7 +18,7 @@
 
 .green_box {
     border-radius: 30px;
-    border: 6px solid #3DB432;
+    border: 8px solid #3DB432;
     background: #E5F7E3;
     padding: 30px;
     margin: 100px;
