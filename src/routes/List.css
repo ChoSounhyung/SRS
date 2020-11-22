@@ -52,6 +52,10 @@
     margin-left: 300px;
 }
 
+#link:link {
+    color: black;
+}
+
 @media screen and (min-width: 1800px) {
     #container_margin {
         margin-left: 210px;

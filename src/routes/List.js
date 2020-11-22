@@ -4,7 +4,7 @@ import storeData from "../StoreData.json"
 
 function Store({ name, address, image, link }) {
     return (
-        <a href={link} onClick="console.log('clicked') return false">
+        <a href={link} id="link" onClick='link was clicked'>
         <div className="green_box" id="green_box_container">
             <img className="crop" src={image} alt={name} />
             <div className="content">
