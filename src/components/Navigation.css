@@ -3,54 +3,46 @@
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 
-.nav {
-    text-align: right;
+.menu_container {
+    float: right;
     padding: 40px;
 }
 
-#list {
-    padding: 120px;
+.srs {
+    width: 170px;
+    height: 50px;
+    float: left;
+    padding: 40px;
+    margin-left: 40px;
 }
 
-#smti {
-    padding: 120px;
+.nav_container {
+    padding: 40px;
 }
 
 @media screen and (min-width: 1640px) {
-    #list {
-        padding: 100px;
-    }
-    #smti {
-        padding: 100px;
+    #menu {
+        padding: 80px;
     }
 }
 
 @media screen and (min-width: 1110px) and (max-width: 1640px) {
-    #list {
-        padding: 70px;
-    }
-    #smti {
+    #menu {
         padding: 70px;
     }
 }
 
 @media screen and (min-width: 730px) and (max-width: 1110px) {
-    #list {
-        padding: 50px;
-    }
-    #smti {
+    #menu {
         padding: 50px;
     }
 }
 
 @media screen and (max-width: 730px) {
-    #list {
-        padding: 20px;
-    }
-    #smti {
+    #menu {
         padding: 20px;
     }
 }
