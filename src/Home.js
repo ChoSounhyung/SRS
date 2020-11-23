@@ -10,11 +10,10 @@ class Home extends React.Component {
     return (
       <div>
         <HashRouter>
-        <Navigation />
-        <Route path="/list" exact={true} component={List} />
-        <Route path="/smti" exact={true} component={Smti} />
-      </HashRouter>
-      <p><small>This stop is </small>Sinsa-ri Station</p>
+          <Navigation />
+          <Route path="/list" exact={true} component={List} />
+          <Route path="/smti" exact={true} component={Smti} />
+        </HashRouter>
       </div>
     );
   }
