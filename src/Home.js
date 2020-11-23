@@ -3,9 +3,9 @@ import { HashRouter, Route} from "react-router-dom";
 import Smti from "./routes/Smti";
 import List from "./routes/List";
 import Navigation from "./components/Navigation";
-import "./App.css"
+import "./Home.css"
 
-class App extends React.Component {
+class Home extends React.Component {
   render() {
     return (
       <div>
@@ -20,4 +20,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default Home;
