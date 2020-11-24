@@ -1,6 +1,4 @@
-p {
-    padding: 100px;
-    justify-content: center;
+.title {
     font-size: 2.6rem;
     font-weight: bold;
     font-style: italic;
@@ -8,4 +6,9 @@ p {
 
 small {
     font-size: 2.2rem;
+}
+
+.container {
+    padding: 100px;
+    text-align: right;
 }
