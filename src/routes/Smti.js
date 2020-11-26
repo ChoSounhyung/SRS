@@ -3,7 +3,6 @@ import "./Smti.css";
 
 // smti data
 import smti_data from "../data/smti_data.json";
-import { Redirect } from "react-router-dom";
 
 class Smti extends React.Component {
     state = {
