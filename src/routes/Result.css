@@ -1,0 +1,50 @@
+/* Content Container */
+#result_container {
+    min-height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.card_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50vw;
+    height: 60vh;
+    padding: 30px;
+
+    border: 2px solid black;
+    border-radius: 60px;
+}
+
+.desc_type {
+    font-weight: bold;
+}
+
+.text_type {
+    margin-top: 5px;
+}
+
+.img_type {
+    width: 25vw;
+    height: 25vw;
+    object-fit: contain;
+}
+
+.content_type {
+    background-color: #F5F5F5;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+.text_content {
+    display: block;
+    margin-bottom: 10px;
+}
