@@ -3,6 +3,7 @@ import "./Smti.css";
 
 // smti data
 import smti_data from "../data/smti_data.json";
+import { Redirect } from "react-router-dom";
 
 class Smti extends React.Component {
     state = {
@@ -21,6 +22,9 @@ class Smti extends React.Component {
             })
         } else {
             // Redirect
+            const id = 1;
+            const { history } = this.props;
+            history.push(`/result/${id}`);
         }
     }
 
