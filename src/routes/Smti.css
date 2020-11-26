@@ -56,3 +56,7 @@ body {
     border: 5px solid #3CB432;
     border-radius: 20px;
 }
+
+.active {
+    background-color: #3CB432;
+}
