@@ -21,8 +21,8 @@ body {
 
 /* Select Box */
 .select_box {
-    height: 80px;
-    width: 360px;
+    height: 90px;
+    width: 390px;
     margin-bottom: 20px;
     padding: 20px;
 
@@ -46,7 +46,7 @@ body {
     margin-top: 100px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .circle {
