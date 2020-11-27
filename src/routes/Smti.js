@@ -31,7 +31,7 @@ class Smti extends React.Component {
         this.setResult(result);
 
         const { currentIndex, datas, checkList } = this.state;
-        if (currentIndex != datas.length - 1) {
+        if (currentIndex !== datas.length - 1) {
             this.setState({
                 currentIndex: currentIndex + 1
             })
@@ -52,7 +52,7 @@ class Smti extends React.Component {
             const maxValue = Math.max(...types);
             for (let i = 0; i < types.length; i++) {
                 const num = types[i];
-                if (maxValue == num) {
+                if (maxValue === num) {
                     id = i;
                     break;
                 }
@@ -65,7 +65,7 @@ class Smti extends React.Component {
 
     setResult = (result) => {
         const { datas, checkList, currentIndex } = this.state;
-        datas[currentIndex].examples.map((example, index) => {
+        datas[currentIndex].examples.forEach((example, index) => {
             if (result === example) {
                 const count = checkList[`${currentIndex}-${index}`];
                 this.setState({
@@ -93,7 +93,7 @@ class Smti extends React.Component {
             </div>
             <div className="progress_bar">
                 {datas.map((data, index) => 
-                    <div key={index} className={index == currentIndex ? "circle active" : "circle"} />
+                    <div key={index} className={index === currentIndex ? "circle active" : "circle"} />
                 )}
             </div>
         </div>

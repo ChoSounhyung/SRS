@@ -8,7 +8,7 @@ class Navigation extends React.Component {
     render() {
         return (
             <div className="nav_container">
-                <Link to="/#"><img className="srs" src={srs}/></Link>
+                <Link to="/#"><img className="srs" src={srs} alt="logo" /></Link>
                 <div className="menu_container">
                     <Link to="/list" className="nav_text" id="menu">LIST</Link>
                     <Link to="/smti" className="nav_text" id="menu">SMTI</Link>

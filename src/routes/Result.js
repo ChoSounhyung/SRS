@@ -40,10 +40,10 @@ class Result extends React.Component {
                 <div className="card_box">
                     <span className="desc_type">{data[id].title}</span>
                     <h1 className="text_type">{data[id].name}</h1>
-                    <img src={images[id]} className="img_type" />
+                    <img src={images[id]} className="img_type" alt={"type"} />
                     <div className="content_type">
-                        {data[id].contents.map(text => (
-                            <span className="text_content">{text}</span>
+                        {data[id].contents.map((text, index) => (
+                            <span key={index} className="text_content">{text}</span>
                         ))}
                     </div>
                 </div>
