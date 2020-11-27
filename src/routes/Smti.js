@@ -7,12 +7,13 @@ import smti_data from "../data/smti_data.json";
 class Smti extends React.Component {
     state = {
         datas: smti_data,
-        currentIndex: 0
+        currentIndex: 0,
+        checkList: {}
     }
 
     clickHandle = (evt) => {
         const result = evt.target.innerText;
-        console.log(result);
+        this.setResult(result);
 
         const { currentIndex, datas } = this.state;
         if (currentIndex != datas.length - 1) {
@@ -25,6 +26,23 @@ class Smti extends React.Component {
             const { history } = this.props;
             history.push(`/result/${id}`);
         }
+        console.log(this.state.checkList);
+    }
+
+    setResult = (result) => {
+        const { datas, checkList, currentIndex } = this.state;
+
+        datas[currentIndex].examples.map((example, index) => {
+            if (result === example) {
+                const count = checkList[`${currentIndex}-${index}`] || 0;
+                this.setState({
+                    checkList: {
+                        ...checkList,
+                        [`${currentIndex}-${index}`]: count + 1
+                    }
+                })
+            }
+        });
     }
 
     render() {
@@ -33,8 +51,8 @@ class Smti extends React.Component {
             <div className="quiz_container">
                 <h1>{datas[currentIndex].text}</h1>
                 <div className="select_container">
-                    {datas[currentIndex].examples.map((example) => (
-                        <div className={"select_box"} onClick={this.clickHandle}>
+                    {datas[currentIndex].examples.map((example, index) => (
+                        <div key={index} className={"select_box"} onClick={this.clickHandle}>
                             {example}
                         </div>
                     ))}
@@ -42,7 +60,7 @@ class Smti extends React.Component {
             </div>
             <div className="progress_bar">
                 {datas.map((data, index) => 
-                    <div className={index == currentIndex ? "circle active" : "circle"} />
+                    <div key={index} className={index == currentIndex ? "circle active" : "circle"} />
                 )}
             </div>
         </div>
