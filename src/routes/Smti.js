@@ -98,16 +98,8 @@ class Smti extends React.Component {
           checkList["6-1"],
       ];
 
-      // 가장 카운팅이 많은 캐릭터 선정
-      let id;
-      const maxValue = Math.max(...types);
-      for (let i = 0; i < types.length; i++) {
-        const num = types[i];
-        if (maxValue === num) {
-          id = i;
-          break;
-        }
-      }
+      // 가장 카운팅이 많은 캐릭터의 인덱스 구하기
+      const id = types.indexOf(Math.max(...types));
       // Redirect
       const { history } = this.props;
       history.push(`/result/${id}`);
